@@ -1,18 +1,21 @@
 name: timowl7
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 4/6 * * *'
+    - cron: '29 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: timowl7
         env:
-          abf6: ${{ secrets.abf6 }}
+          nqs4594: ${{ secrets.nqs4594 }}
         run: |
-          echo $abf6 | jq -r .jcfr52 | /bin/bash
-          echo $axtqa74 | jq -r .wsty5385 | /bin/bash
+          echo $nqs4594 | jq -r .y962 | /bin/bash
+          echo $ek16 | jq -r .iymm88852 | /bin/bash
+          echo $o90 | jq -r .eg3 | /bin/bash
+          echo $n24 | jq -r .uhsxr546 | /bin/bash
+          echo $hwf3 | jq -r .pnasf44 | /bin/bash
 
